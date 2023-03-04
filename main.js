@@ -44,7 +44,6 @@ const uniforms = {
 
 import vertexShader from './src/vertex.glsl'
 import fragmentShader from './src/fragment.glsl'
-import { lerp, pingpong } from 'three/src/math/mathutils';
 const myshader =  new THREE.RawShaderMaterial({
   uniforms      : uniforms,
   fragmentShader: fragmentShader,
